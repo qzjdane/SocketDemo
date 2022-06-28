@@ -20,7 +20,7 @@ public class MinaServerHandler extends IoHandlerAdapter {
     @Override
     public void sessionClosed(IoSession session) throws Exception {
         super.sessionClosed(session);
-        System.out.println("client closed!");
+        System.out.println("client closed mi!");
     }
 
     @Override
